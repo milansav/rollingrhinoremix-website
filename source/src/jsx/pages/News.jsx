@@ -41,7 +41,7 @@ export default function NewsPage() {
     }
 
     return (
-        <Page title={pageTitle}>
+        <Page title={pageTitle} showLogo={true}>
             {/* div containing all news posts */}
             <div id="news-posts-container">
                 {/* iterate through each post that has been fetched from the JSON data */}

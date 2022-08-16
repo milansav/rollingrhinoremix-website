@@ -45,7 +45,7 @@ const archiveorgLink = downloadInfo.mirrors.archiveorg;
 
 export default function DownloadPage() {
     return (
-        <Page title={pageTitle}>
+        <Page title={pageTitle} showLogo={true}>
             {/* section 1 */}
             <div class="card">
                 {/* mini spacer */}

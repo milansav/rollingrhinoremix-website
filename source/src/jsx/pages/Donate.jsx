@@ -13,7 +13,7 @@ const pageTitle = "Donate";
 
 export default function DonatePage() {
     return (
-        <Page title={pageTitle}>
+        <Page title={pageTitle} showLogo={true}>
             {/* paragraph */}
             <p id="donate-paragraph">
                 Thank you for choosing to donate to the Rolling Rhino Remix project. Your support means a lot to everyone working on the development team. <br></br>

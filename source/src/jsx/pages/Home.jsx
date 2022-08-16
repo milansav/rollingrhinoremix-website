@@ -21,28 +21,28 @@ export default function HomePage() {
 
             {/* section 1 */}
             <div class="card">
-                {/* mini spacer */}
-                <div class="mini-spacer"></div>
+                    {/* mini spacer */}
+                    <div class="mini-spacer"></div>
 
-                {/* header */}
-                <h1 id="home-section1-header">So what is it?</h1>
+                    {/* header */}
+                    <h1 id="home-section1-header">So what is it?</h1>
 
-                {/* container for section1 contents */}
-                <div id="home-section1-contents">
-                    {/* paragraph */}
-                    <p id="home-section1-paragraph" style="text-align: left;">
-                        Rolling Rhino Remix is an unofficial Ubuntu flavour which converts the Ubuntu operating system into a rolling release Linux distribution by
-                        tracking the devel series. <br></br>
-                        A rolling release distribution is a Linux distribution which receives continuous package updates,
-                        and as such there are no major updates (unlike Ubuntu's current release model where there is clear progression between versions).
-                        A rolling release model offers new and experienced users a new way to utilise their desktop PC, without the hassle of major upgrades.
-                    </p>
+                    {/* container for section1 contents */}
+                    <div id="home-section1-contents">
+                        {/* paragraph */}
+                        <p id="home-section1-paragraph" style="text-align: left;">
+                            Rolling Rhino Remix is an unofficial Ubuntu flavour which converts the Ubuntu operating system into a rolling release Linux distribution by
+                            tracking the devel series. <br></br>
+                            A rolling release distribution is a Linux distribution which receives continuous package updates,
+                            and as such there are no major updates (unlike Ubuntu's current release model where there is clear progression between versions).
+                            A rolling release model offers new and experienced users a new way to utilise their desktop PC, without the hassle of major upgrades.
+                        </p>
 
-                    {/* image */}
-                    <img id="home-image1" src="assets/HomePage/section1.png"/>
-                </div>
+                        {/* image */}
+                        <img id="home-image1" src="assets/HomePage/section1.png"/>
+                    </div>
 
-                <div class="mini-spacer"></div>
+                    <div class="mini-spacer"></div>
             </div>
 
             {/* section 2 */}
@@ -68,56 +68,72 @@ export default function HomePage() {
                 {/* flex-box to contain the little grid objects */}
                 <div id="home-section2-grid">
                     {/* grid object */}
-                    <div class="home-section2-grid-object">
+                    <div class="home-section2-grid-object card">
                         {/* image */}
-                        <img src="assets/HomePage/EasyInstallation.png"/>
+                        <div class="home-section-grid-left">
+                            <img src="assets/HomePage/EasyInstallation.png"/>
+                        </div>
                         {/* text */}
-                        <p>
-                            Rolling Rhino Remix offers a no-frills, slightly modified version of Ubuntu's Ubiquity installer.
-                            This graphical installer makes the installation of Rolling Rhino Remix simple, easy and intutive and offers different methods of insallation such as
-                            our minimal option which comes with no desktop environment or extra packages, allowing you to customise your system from the ground up.
-                        </p>
+                        <div class="home-section-grid-right">
+                            <p>
+                                Rolling Rhino Remix offers a no-frills, slightly modified version of Ubuntu's Ubiquity installer.
+                                This graphical installer makes the installation of Rolling Rhino Remix simple, easy and intutive and offers different methods of insallation such as
+                                our minimal option which comes with no desktop environment or extra packages, allowing you to customise your system from the ground up.
+                            </p>
+                        </div>
                     </div>
 
                     {/* grid object */}
-                    <div class="home-section2-grid-object home-section2-end-line-grid-object">
+                    <div class="home-section2-grid-object card">
                         {/* image */}
-                        <img src="assets/HomePage/Minimal.png"/>
+                        <div class="home-section-grid-left">
+                            <img src="assets/HomePage/Minimal.png"/>
+                        </div>
                         {/* text */}
-                        <p>
-                            Our minimal installation option comes with no un-necessary packages and no Desktop Environment out of the box,
-                            allowing for you to customise your Rolling Rhino Remix system the way that you want it.
-                            Our quality of life tools such as rhino-deinst provide an easy, TUI method to install a desktop environment.
-                        </p>
+                        <div class="home-section-grid-right">
+                            <p>
+                                Our minimal installation option comes with no un-necessary packages and no Desktop Environment out of the box,
+                                allowing for you to customise your Rolling Rhino Remix system the way that you want it.
+                                Our quality of life tools such as rhino-deinst provide an easy, TUI method to install a desktop environment.
+                            </p>
+                        </div>
                     </div>
 
                     {/* grid object */}
-                    <div class="home-section2-grid-object home-section2-bottom-row-grid-object">
+                    <div class="home-section2-grid-object card">
                         {/* image */}
-                        <img src="assets/HomePage/rhino.png"/>
+                        <div class="home-section-grid-left">
+                            <img src="assets/HomePage/rhino.png"/>
+                        </div>
                         {/* text */}
-                        <p>
-                            Rolling Rhino Remix provides many different quality of life and command-line utilities to
-                            improve the user experience of the Operating System. Many of these utilities were created by
-                            the Rolling Rhino Remix team specifically for the distribution.
-                            You can find information about each of the utilities on our
-                            <a class="paragraph-link" href="https://github.com/rollingrhinoremix/docs/wiki" target="_blank">Wiki</a>.
-                        </p>
+                        <div class="home-section-grid-right">
+                            <p>
+                                Rolling Rhino Remix provides many different quality of life and command-line utilities to
+                                improve the user experience of the Operating System. Many of these utilities were created by
+                                the Rolling Rhino Remix team specifically for the distribution.
+                                You can find information about each of the utilities on our
+                                <a class="paragraph-link" href="https://github.com/rollingrhinoremix/docs/wiki" target="_blank">Wiki</a>.
+                            </p>
+                        </div>
                     </div>
 
                     {/* second row */}
 
                     {/* grid object */}
-                    <div class="home-section2-grid-object home-section2-end-line-grid-object home-section2-bottom-row-grid-object" style="margin-bottom: 0;">
+                    <div class="home-section2-grid-object card">
                         {/* image */}
-                        <img src="assets/HomePage/partners.png"/>
+                        <div class="home-section-grid-left">
+                            <img src="assets/HomePage/partners.png"/>
+                        </div>
                         {/* text */}
-                        <p>
-                            Rolling Rhino Remix has partnered with two large open source projects, Pacstall and Nala.
-                            Pacstall is an AUR-like package manager that brings the experience of the Arch User repository to Rolling Rhino Remix.
-                            Nala is a <span class="code">libapt-pkg</span> frontend which improves the experience of the apt package manager with better output,
-                            parallel downloads and transaction history.
-                        </p>
+                        <div class="home-section-grid-right">
+                            <p>
+                                Rolling Rhino Remix has partnered with two large open source projects, Pacstall and Nala.
+                                Pacstall is an AUR-like package manager that brings the experience of the Arch User repository to Rolling Rhino Remix.
+                                Nala is a <span class="code">libapt-pkg</span> frontend which improves the experience of the apt package manager with better output,
+                                parallel downloads and transaction history.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>

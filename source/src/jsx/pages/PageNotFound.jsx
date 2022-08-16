@@ -14,7 +14,7 @@ const pageTitle = "404";
 
 export default function PageNotFound() {
     return (
-        <Page title={pageTitle}>
+        <Page title={pageTitle} showLogo={true}>
             <div class="error-404">
                 {/* paragraph */}
                 <p>

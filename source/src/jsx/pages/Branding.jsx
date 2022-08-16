@@ -13,7 +13,7 @@ var pageTitle = "Brand Guidelines";
 
 export default function BrandingPage() {
     return (
-        <Page title={pageTitle}>
+        <Page title={pageTitle} showLogo={true}>
             {/* second mini title */}
             <h3 id="branding-page-title2">
                 Rolling Rhino Remix is <span class="gradient">YOUR </span>

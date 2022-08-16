@@ -12,7 +12,7 @@ const pageTitle = "Information";
 
 export default function InfoPage() {
     return (
-        <Page title={pageTitle}>
+        <Page title={pageTitle} showLogo={true}>
 
             {/* contributors */}
             <div id="info-contributors-section" class="card">

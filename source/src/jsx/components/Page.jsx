@@ -17,7 +17,16 @@ export default function Page(props) {
             <div class="large-spacer"></div>
 
             {/* title */}
-            <img class="logo" src="../../../assets/logo.png" alt="Rolling Rhino Logo (Light version)" width="150px" height="150px" />
+            {() => {
+                if(props.showLogo) {
+                    return (
+                        <img class="logo" src="../../../assets/logo.png" alt="Rolling Rhino Logo (Light version)" width="150px" height="150px" />
+
+                    );
+                }
+
+                return <></>;
+            }}
             <h1 class="gradient">Rolling Rhino Remix - {props.title}</h1>
             <hr class={"header-hr"}/>
             {c()}
